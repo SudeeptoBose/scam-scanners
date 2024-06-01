@@ -34,7 +34,7 @@ const ThirdBlog = () => {
                 </div>
             </div>
             <div className='my-10'>
-                <Link href='/blog'><button className='border-black border-2 px-3 py-1 rounded-full'>To Beginning</button></Link>
+                <Link href='/fourthBlog'><button className='border-black border-2 px-3 py-1 rounded-full'>View Next Story</button></Link>
             </div>
             <p className='text-xl font-regular mb-6 leading-[1.8g]'> The PMC Bank Fraud of 2019, a story that would make even the most seasoned accountant want to switch to interpretive dance. Buckle up, for we're diving into a financial fiasco that involved shady loans, fictitious accounts by the bucket load, and a real estate developer who dodged repayments like Neo dodging bullets in the Matrix.
             </p>

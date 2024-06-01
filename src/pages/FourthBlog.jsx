@@ -1,0 +1,124 @@
+import React from 'react'
+import { Link } from 'wouter'
+
+const FourthBlog = () => {
+    return ( 
+        <div className='w-screen h-auto  bg-[#efea69]'>
+        <div className='max-w-6xl mx-auto px-4 pt-8 pb-10'>
+        <img src='theranos.png' className='rounded-md md:rounded-xl'/>
+        <h1 className='text-[28px] leading-[30px] md:text-[36px] mt-4 mb-6 md:leading-[40px] font-bold text-dark'>The Theranos Fraud: A Comprehensive Accounting Scandal Report</h1>
+        <div className='flex gap-10'>
+        <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
+        <div className='max-w-5xl mx-auto mb-2'>
+        <div className='flex items-start flex-col'>
+        <h4 className='text-lg font-bold'>Imran Hossain</h4>
+        <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
+        </div>
+        </div>
+        <div className='text-sm text-dark'>
+        <p>Published: June 1st, 2024. </p>
+        <p>Reading time: 4 minutes</p>
+        </div>
+        </div>
+        <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
+        <div className='max-w-5xl mx-auto mb-2'>
+        <div className='flex items-start flex-col'>
+        <h4 className='text-lg font-bold'>Sadman Mahmud Faisal </h4>
+        <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
+        </div>
+        </div>
+        <div className='text-sm text-dark'>
+        <p>Published: June 1st, 2024. </p>
+        <p>Reading time: 4 minutes</p>
+        </div>
+        </div>
+        </div>
+        <div className='my-10'>
+        <Link href='/fifthBlog'><button className='border-black border-2 px-3 py-1 rounded-full'>View Next Story</button></Link>
+        </div>
+        <div className='prose md:prose-lg xl:prose-xl w-full whitespace-break-spaces max-w-full text-dark marker:text-dark mb-6'>
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Glamorous Beginning: A Silicon Valley Fairy Tale</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>In the heart of Silicon Valley, where dreams are spun into billion-dollar enterprises, the story of Theranos stands out as a cautionary tale of deception, ambition, and the perils of unchecked innovation. Founded by Elizabeth Holmes, who once captivated the world with her vision of revolutionizing blood testing, Theranos quickly rose to prominence before its dramatic fall from grace. This report delves into the intricate web of deceit spun by Theranos, exploring how the company manipulated its financial statements, misled investors and regulators, and ultimately faced legal consequences.</p>
+        
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Once Upon a Startup: The Rise of Theranos</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Theranos was established in 2003 by Elizabeth Holmes, a Stanford University dropout who envisioned creating a groundbreaking blood-testing device. The promise was tantalizing: a portable machine that could conduct comprehensive blood tests using just a few drops of blood. Holmes' charisma and the allure of her innovation attracted high-profile investors, including Rupert Murdoch and the Walton family, and elevated the company's valuation to $9 billion at its peak. With a mission to democratize healthcare through rapid, accessible, and affordable blood tests, Theranos seemed poised to transform the medical industry.</p>
+        
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Big Con: How the Magic Trick Worked</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>The Foundation of the Scandal
+        <br/>
+        At the core of the Theranos scandal was the Edison device, a machine purportedly capable of performing hundreds of blood tests from a single drop of blood. The technology, however, was deeply flawed. Despite bold claims, the Edison device could not reliably produce accurate results. Instead of admitting failure, Holmes and her team resorted to a series of deceptive practices to maintain the facade of success.
+        <br/>
+        <br/>
+        How They Did It
+        <br/>
+        Theranos' deceit involved several layers of manipulation:
+        <br/>
+        · Fake Demonstrations: During presentations and demonstrations to potential investors and partners, Theranos often used pre-recorded results or doctored data to create the illusion of successful tests.
+        <br/>
+        · Misleading Claims: The company repeatedly claimed that its technology had been validated by major pharmaceutical companies and was in widespread use, neither of which was true.
+        <br/>
+        Concealing Failures: Internally, traditional blood testing machines from other manufacturers were used to conduct tests that the Edison device could not handle. These results were then passed off as having been generated by Theranos' proprietary technology.</p>
+        
+        <img src='blog4-meme.png' className='rounded-md md:rounded-xl w-1/3'/>
+        <br/>
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Cooking the Books: Creative Accounting at Its Best</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Theranos' financial statements were as misleading as its technology claims. The company reported revenues and growth projections that were wildly optimistic and based on the assumption that their unproven technology would soon dominate the market. Key elements of financial manipulation included:
+        <br/>
+        · Inflated Revenue Projections: Theranos projected massive revenue growth despite having little actual revenue from reliable sources. These projections were used to attract further investment.
+        <br/>
+        · Hidden Costs: The high costs associated with developing and running traditional testing equipment were masked, presenting an illusion of higher efficiency and profitability.
+        <br/>
+        · Auditor Compliance: The external auditors, often under immense pressure from Theranos’ charismatic leadership and the desire to not miss out on the next big thing, failed to conduct thorough checks, turning a blind eye to glaring inconsistencies.
+        Red Flags in Auditor Reports
+        Several red flags should have been apparent to diligent auditors:
+        <br/>
+        · Lack of Third-Party Validation: No substantial third-party validation or peer-reviewed studies supported Theranos' claims.
+        <br/>
+        · Inconsistent Financials: Discrepancies between claimed revenues and actual contracts or sales should have raised questions.
+        <br/>
+        · Unusual Secrecy: The company's extreme secrecy about its technology and operations was a significant red flag that auditors should have probed further..</p>
+        
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Great Unraveling: How the House of Cards Fell</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>The unraveling of Theranos began with whistleblowers within the company and was propelled by investigative journalism. Tyler Shultz and Erika Cheung, former employees, raised concerns about the accuracy and reliability of Theranos’ tests. Their warnings were brought to light by John Carreyrou of The Wall Street Journal, whose investigative reports exposed the vast discrepancies between Theranos’ claims and reality.</p>
+        
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Regulatory Scrutiny</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>
+        Following these revelations, regulatory bodies like the Centers for Medicare & Medicaid Services (CMS) conducted their investigations, leading to scathing reports about Theranos’ testing practices. The U.S. Securities and Exchange Commission (SEC) and the Department of Justice (DOJ) launched probes into the company's financial practices and public statements
+        </p>
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Hammer Drops: Legal Consequences</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>
+        Elizabeth Holmes and Ramesh "Sunny" Balwani, the company's former president, faced charges of massive fraud. The legal proceedings detailed how they had engaged in a multi-million-dollar scheme to defraud investors, doctors, and patients. The charges included wire fraud and conspiracy to commit wire fraud.
+        <br/>
+        · Elizabeth Holmes: Found guilty on multiple counts of fraud, Holmes faces significant prison time. Her sentencing hearings have captivated the public, serving as a sobering end to a high-flying career.
+        <br/>
+        · Ramesh "Sunny" Balwani: Similarly, Balwani was found guilty and faces substantial legal penalties.
+        </p>
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Financial Settlements</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>
+        In 2018, the SEC charged Theranos with an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance. Holmes agreed to a settlement that included:
+        <br/>
+        · A $500,000 fine
+        <br/>
+        
+        · Returning 18.9 million shares of Theranos stock
+        <br/>
+        
+        · Relinquishing her voting control of Theranos
+        <br/>
+        
+        · A 10-year ban from serving as an officer or director of a public company
+        <br/>
+        
+        Theranos itself was dissolved in September 2018. The financial repercussions for investors were severe, with losses estimated in the hundreds of millions of dollars.
+        </p>
+
+        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Moral of the Story: Lessons Learned</h2>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>The Theranos saga is a stark reminder of the dangers of unchecked ambition and the allure of Silicon Valley’s promise of groundbreaking innovation. It underscores the importance of rigorous due diligence, transparency, and ethical standards in the corporate world. Investors, regulators, and companies must learn from this debacle to prevent future occurrences. In the end, Theranos stands as a testament to the need for skepticism and the critical role of whistleblowers and investigative journalism in maintaining corporate accountability.</p>
+        
+        </div>
+        </div>
+        </div>
+    )
+}
+
+export default FourthBlog
