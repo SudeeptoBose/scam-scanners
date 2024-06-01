@@ -10,28 +10,17 @@ const FifthBlog = () => {
         <div className='flex gap-10'>
         <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
         <div className='max-w-5xl mx-auto mb-2'>
-        <div className='flex items-start flex-col'>
-        <h4 className='text-lg font-bold'>Imran Hossain</h4>
-        <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
-        </div>
-        </div>
-        <div className='text-sm text-dark'>
-        <p>Published: June 1st, 2024. </p>
-        <p>Reading time: 4 minutes</p>
-        </div>
-        </div>
-        <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
-        <div className='max-w-5xl mx-auto mb-2'>
-        <div className='flex items-start flex-col'>
-        <h4 className='text-lg font-bold'>Sadman Mahmud Faisal </h4>
-        <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
-        </div>
+            <div className='flex items-start flex-col'>
+                <h4 className='text-lg font-bold'>Nasser Hossain</h4>
+                <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
+            </div>
         </div>
         <div className='text-sm text-dark'>
         <p>Published: June 1st, 2024. </p>
         <p>Reading time: 4 minutes</p>
         </div>
         </div>
+
         </div>
         <div className='my-10'>
         <Link href='/blog'><button className='border-black border-2 px-3 py-1 rounded-full'>View First Story</button></Link>
