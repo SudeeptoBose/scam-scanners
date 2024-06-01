@@ -15,17 +15,17 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='order-1 lg:order-none col-span-2 lg:col-span-1 w-full font-extrabold leading-[0.8]'>
-                    <div className=''> 
-                        <div>NOT</div>
+                    <div className='text-[130px]'> 
+                        <div className='block whitespace-nowrap'>NOT</div>
                     </div>
-                    <div className=''> 
-                        <div>BECAUSE</div>
+                    <div className='text-[70px]'> 
+                        <div className='block whitespace-nowrap'>BECAUSE</div>
                     </div>
-                    <div className=''> 
-                        <div>WE ARE</div>
+                    <div className='text-[75px]'> 
+                        <div className='block whitespace-nowrap'>WE ARE</div>
                     </div>
-                    <div className=''> 
-                        <div>IBAITES</div>
+                    <div className='text-[100px]'> 
+                        <div className='block whitespace-nowrap'>IBAITES</div>
                     </div>
                 </div>
                 <div className='flex flex-col justify-start lg:justify-center h-full text-right z-10'>

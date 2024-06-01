@@ -3,10 +3,7 @@ import React from 'react'
 
 const Meme = () => {
   return (
-    <Canvas>
-      <boxGeometry/>
-      <meshBasicMaterial color={'red'}/>
-    </Canvas>
+    <div> meme</div>
   )
 }
 
