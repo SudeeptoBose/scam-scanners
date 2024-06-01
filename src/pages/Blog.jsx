@@ -9,7 +9,7 @@ const Blog = () => {
             <div className='flex gap-10'>
                 <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
                     <div className='max-w-5xl mx-auto mb-2'>
-                        <div className='flex items-center'>
+                        <div className='flex items-start flex-col'>
                             <h4 className='text-lg font-bold'> Abi Rawan Arko</h4>
                             <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
                         </div>
@@ -21,7 +21,7 @@ const Blog = () => {
                 </div>
                 <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
                     <div className='max-w-5xl mx-auto mb-2'>
-                        <div className='flex items-center'>
+                        <div className='flex items-start flex-col'>
                             <h4 className='text-lg font-bold'> Fazle Rabbi </h4>
                             <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
                         </div>
@@ -71,6 +71,9 @@ const Blog = () => {
                 (Hirsch, 2021). Kraft-Heinz was ordered to do more than just pay a fine; 
                 it had to put strict internal controls and compliance procedures in place and 
                 stop breaking securities rules altogether.
+                <br/><br/>
+                <img src='blog1-meme.jpg' className='rounded-md md:rounded-xl w-1/3'/>
+                <br/>
                 Chief Operating Officer Eduardo Pelleissonei consented to pay $300,000
                 in civil penalties, $14,211.31 in disgorgement and prejudgment interest, and 
                 an end to any further infractions. In a final judgment, Chief Procurement 
