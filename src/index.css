@@ -5,6 +5,6 @@
 #root
 {
     overflow-x: hidden;
-    z-index: -10;
-    background: #353535;
+    /* z-index: -10; */
+    /* background: #353535; */
 }

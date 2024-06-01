@@ -1,8 +1,12 @@
+import { Canvas } from '@react-three/fiber'
 import React from 'react'
 
 const Meme = () => {
   return (
-    <div>Meme</div>
+    <Canvas>
+      <boxGeometry/>
+      <meshBasicMaterial color={'red'}/>
+    </Canvas>
   )
 }
 

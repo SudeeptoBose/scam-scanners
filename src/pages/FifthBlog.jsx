@@ -34,7 +34,7 @@ const FifthBlog = () => {
         </div>
         </div>
         <div className='my-10'>
-        <Link href='/fourthBlog'><button className='border-black border-2 px-3 py-1 rounded-full'>View Next Story</button></Link>
+        <Link href='/fourthBlog'><button className='border-black border-2 px-3 py-1 rounded-full'>View First Story</button></Link>
         </div>
         <p className='text-xl font-regular mb-6 leading-[1.8g]'> Imagine a company so good at borrowing money, they could vanish a cool Tk 3,500 crore (that's roughly $450 million in 2011 money) like a magician pulling a rabbit from a hat. Well, this wasn't a magic trick, folks. This, my friends, is the story of the Hallmark-Sonali Bank loan scam, a whopper of a financial shenanigan that rocked Bangladesh between 2010 and 2012.
         <br/>
@@ -88,52 +88,32 @@ const FifthBlog = () => {
         <br/>
         <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Settlement of Scam: Not Exactly a Laughing Matter</h2>
         <p className='text-xl font-regular mb-6 leading-[1.8g]'>The party came to an abrupt end in 2012 when the funny money scheme unraveled. The resolution of the Hallmark Group scandal involved a series of legal and regulatory actions:
-<br/>
-1. Arrests and Prosecutions: Hallmark's founders, Tanvir Mahmud and Jasmine Islam, and top Sonali Bank officials  faced the music. As of today, several cases are still ongoing, but in 2018, Tanvir was sentenced to life imprisonment. Jasmine also received jail time for failing to declare her wealth. Lastly, Md Jamal Uddin Sarkar, the former chairman of Tetuljhora Union Parishad in Hemayetpur, Savar, received a seven-year prison sentence under two separate sections. Upon hearing the sentencing, he fled the courtroom unnoticed.
-<br/>
-2. Regulatory Reforms: Bangladesh Bank implemented stricter regulatory measures to prevent future frauds, including enhanced auditing processes and tighter controls over the issuance of LoCs.
-<br/>
-3. Financial Recovery: Efforts were made to recover the embezzled funds, though the recovery was only partial, highlighting the long-term impact on the banking sector. Only a fraction of the embezzled funds (Tk 567.47 crore) were ever recovered</p>
+        <br/>
+        1. Arrests and Prosecutions: Hallmark's founders, Tanvir Mahmud and Jasmine Islam, and top Sonali Bank officials  faced the music. As of today, several cases are still ongoing, but in 2018, Tanvir was sentenced to life imprisonment. Jasmine also received jail time for failing to declare her wealth. Lastly, Md Jamal Uddin Sarkar, the former chairman of Tetuljhora Union Parishad in Hemayetpur, Savar, received a seven-year prison sentence under two separate sections. Upon hearing the sentencing, he fled the courtroom unnoticed.
+        <br/>
+        2. Regulatory Reforms: Bangladesh Bank implemented stricter regulatory measures to prevent future frauds, including enhanced auditing processes and tighter controls over the issuance of LoCs.
+        <br/>
+        3. Financial Recovery: Efforts were made to recover the embezzled funds, though the recovery was only partial, highlighting the long-term impact on the banking sector. Only a fraction of the embezzled funds (Tk 567.47 crore) were ever recovered</p>
         
+        <br/>
+        <img src='blog5-fig3.png' className='rounded-md md:rounded-xl w-1/3'/>
+        <br/>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Fig: Top Culprits of Hallmark Group Scandal</p>
+        <br/>
+
+
         <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Numbers Game: A Staggering Sum of Shame</h2>
-        <p className='text-xl font-regular mb-6 leading-[1.8g]'>This elaborate scheme wasn't exactly petty cash. We're talking about a whopping ₹6,500 crore (approximately $8.6 billion) that vanished into thin air, courtesy of fictitious accounts. ₹73% of PMC Bank's total loans were allegedly funneled towards the perpetually cash-strapped HDIL.</p>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Important Note: While the plan might sound comical on the surface, the human cost of this scam was significant. Sonali Bank, a state-owned entity, was left reeling from the financial blow.</p>
         
-        
-        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Money Maze: Unraveling the PMC Bank Scheme</h2>
-        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Imagine a bank heist, but instead of 
-        guns and masks, we have dodgy 
-        accounting software and a whole 
-        lot of creativity. Here's a simplified 
-        flowchart to illustrate the glorious 
-        mess:
-        HDIL Needed a Loan: Housing 
-        Development and Infrastructure
-        Limited, strapped for cash, 
-        approached PMC Bank for a loan. 
-        But their credit score resembled a 
-        deflated whoopie cushion – not exactly loan-worthy.
-        
-        "No Can Do" Turned into "Can Do...Kinda": PMC Bank initially rejected the loan request due to HDIL's shaky finances. But then came the questionable twist...
-        Cooking the Books: Instead of following proper procedures, PMC Bank allegedly cooked the books. They created a bunch of fake accounts to hide HDIL's bad loans.
-        Fake Money In, Real Money Out: Money magically appeared in these fictitious accounts (think virtual Monopoly money), allowing PMC Bank to approve the loan. In reality, though, real money flowed out of the bank and straight to HDIL.
-        A House of Cards: Everyone involved pretended everything was peachy keen. But as with any house of cards, this scheme was bound to crumble.
-        The jig is Up: The Reserve Bank of India (RBI) eventually discovered the mess, leading to panic among depositors and the bank's eventual collapse.</p>
-        
-        
-        
-        <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>Settlement of the Scam: A Long and Winding Road</h2>
-        <p className='text-xl font-regular mb-6 leading-[1.8g]'>The party came to a screeching halt in September 2019 when the Reserve Bank of India (RBI) exposed the whole kit and kaboodle. Depositors went into meltdown, the bank was put under restrictions, and fingers started pointing faster than in a game of musical chairs.
-        <br/>
-        <br/>
-        Fast forward to today (May 2024), the saga continues. The Wadhwan brothers are facing legal battles, assets are being seized, and depositors are gradually getting some of their money back, albeit in a slow trickle. PMC Bank itself has been merged with Unity Small Finance Bank, a fresh start for a tarnished name</p>
         
         <h1 className='text-[28px] leading-[30px] md:text-[36px] mt-4 mb-6 md:leading-[40px] font-bold text-dark'>Links</h1>
         <div className='flex gap-5 flex-col'>
-        <a target='_blank' href='https://www.moneycontrol.com/news/business/markets/pmc-bank-crisis-the-inside-story-of-what-really-went-wrong-4610601.html'>1. "PMC Bank Crisis: The Inside Story of What Really Went Wrong" - [Link](https://www.moneycontrol.com/news/business/markets/pmc-bank-crisis-the-inside-story-of-what-really-went-wrong-4610601.html)</a>
-        <a target='_blank' href='https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1273'>2. "RBI Annual Report 2019-20" - [Link](https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1273)</a>
-        <a target='_blank' href='https://www.financialexpress.com/opinion/pmc-bank-fraud-a-case-of-regulatory-lapse/1743140/'>3. "PMC Bank Fraud: A Case of Regulatory Lapse?" - [Link](https://www.financialexpress.com/opinion/pmc-bank-fraud-a-case-of-regulatory-lapse/1743140/)</a>
-        <a target='_blank' href='https://www.thehindubusinessline.com/money-and-banking/hdils-debt-woes-and-the-pmc-bank-fiasco-explained/article29578635.ece'> 4. "HDIL's Debt Woes and the PMC Bank Fiasco Explained" - [Link](https://www.thehindubusinessline.com/money-and-banking/hdils-debt-woes-and-the-pmc-bank-fiasco-explained/article29578635.ece)</a>
-        <a target='_blank' href='https://www.thehindubusinessline.com/money-and-banking/understanding-the-pmc-bank-crisis/article29577102.ece'> 5. "Understanding the PMC Bank Crisis" - [Link](https://www.thehindubusinessline.com/money-and-banking/understanding-the-pmc-bank-crisis/article29577102.ece)</a>
+        <a target='_blank' href='https://www.moneycontrol.com/news/business/markets/pmc-bank-crisis-the-inside-story-of-what-really-went-wrong-4610601.html'>Bangladesh Bank. (2012). Investigation Report on Hallmark Group. Retrieved from Bangladesh Bank.</a>
+        <a target='_blank' href='https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1273'>The Daily Star. (2012). Hallmark-Sonali Loan Scam: How it Happened. Retrieved from The Daily Star. Anti-Corruption Commission of Bangladesh. (2013). Case Details of Hallmark Group. Retrieved from ACC.</a>
+        <a target='_blank' href='https://www.financialexpress.com/opinion/pmc-bank-fraud-a-case-of-regulatory-lapse/1743140/'>Dhaka Tribune. (2012). Hallmark Group: A Case Study in Corporate Fraud. Retrieved from Dhaka Tribune.</a>
+        <a target='_blank' href='https://www.thehindubusinessline.com/money-and-banking/hdils-debt-woes-and-the-pmc-bank-fiasco-explained/article29578635.ece'>Reuters. (2012). Bangladesh's Biggest Banking Scam: The Hallmark Case. Retrieved from Reuters.</a>
+        <a target='_blank' href='https://www.thehindubusinessline.com/money-and-banking/understanding-the-pmc-bank-crisis/article29577102.ece'>Accounting-fraud-a-study-on-sonali-bank-limited-hallmark-scam. https://www.studocu.com/row/document/university-of-dhaka/audit-assurance/accounting-fraud-a-study-on-sonali-bank-limited-hallmark-scam-pdf-free/34007859</a>
+        <a target='_blank' href='https://www.thehindubusinessline.com/money-and-banking/understanding-the-pmc-bank-crisis/article29577102.ece'>Transparency International's Corruption Perceptions Index: [Transparent International Corruption Perception Index](https://www.transparency.org/en/cpi/2022) Hallmark-Sonali Bank Loan Scam: [Wikipedia]</a>
         </div>
         </div>
         </div>
