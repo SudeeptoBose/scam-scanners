@@ -25,16 +25,20 @@ const Home = () => {
                             <p className='text-xl font-medium leading-none my-2 xl:text-2xl'>The Kraft-Heinz Scam Revealed: A Chronicle of Corporate Deceit</p>
                         </a>
                         </Link>
-                        <a className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                        <Link href='/secondBlog' className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                        <a >
                             <img src='card2.jpg' className='rounded-md mb-2 w-full'/>
                             <h3 className='text-xs xl:text-sm'>May 31st, 2024</h3>
                             <p className='text-xl font-medium leading-none my-2 xl:text-2xl'>FTX: From Crypto Darling to Dumpster Fire (A Hilariously Tragic Tale)</p>
                         </a>
-                        <a className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                        </Link>
+                        <Link href='/thirdBlog' className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                        <a>
                             <img src='card3.jpg' className='rounded-md mb-2 w-full'/>
                             <h3 className='text-xs xl:text-sm'>May 31st, 2024</h3>
                             <p className='text-xl font-medium leading-none my-2 xl:text-2xl'>The PMC Bank Caper: A Hilarious Heist</p>
                         </a>
+                        </Link>
                     </div>
                 </div>
             </div>
