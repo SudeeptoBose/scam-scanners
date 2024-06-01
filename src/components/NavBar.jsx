@@ -11,7 +11,7 @@ const NavBar = () => {
 		<>
 			<ul className='grid grid-cols-5 min-h-10  justify-between text-lg text-center bg-[#efea69]'>
 				<Link href='/'>
-					{/* <img src='logo.png' className='p-2.5 border-2 border-black'/> */}
+					{/* <img src='logo.png' className='p-2.5 w-[150px] border-2 border-black'/> */}
 					<li className='p-2.5 border-2 border-black'>Scam Scanners</li>
 				</Link>
 				<li className='p-2.5 border-2 border-black'>About Us</li>

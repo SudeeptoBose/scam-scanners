@@ -34,7 +34,7 @@ const FifthBlog = () => {
         </div>
         </div>
         <div className='my-10'>
-        <Link href='/fourthBlog'><button className='border-black border-2 px-3 py-1 rounded-full'>View First Story</button></Link>
+        <Link href='/blog'><button className='border-black border-2 px-3 py-1 rounded-full'>View First Story</button></Link>
         </div>
         <p className='text-xl font-regular mb-6 leading-[1.8g]'> Imagine a company so good at borrowing money, they could vanish a cool Tk 3,500 crore (that's roughly $450 million in 2011 money) like a magician pulling a rabbit from a hat. Well, this wasn't a magic trick, folks. This, my friends, is the story of the Hallmark-Sonali Bank loan scam, a whopper of a financial shenanigan that rocked Bangladesh between 2010 and 2012.
         <br/>
@@ -103,7 +103,10 @@ const FifthBlog = () => {
 
 
         <h2 className='text-xl font-bold mb-6 leading-[1.8g]'>The Numbers Game: A Staggering Sum of Shame</h2>
-        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Important Note: While the plan might sound comical on the surface, the human cost of this scam was significant. Sonali Bank, a state-owned entity, was left reeling from the financial blow.</p>
+        <p className='text-xl font-regular mb-6 leading-[1.8g]'>Important Note: While the plan might sound comical on the surface, the human cost of this scam was significant. Sonali Bank, a state-owned entity, was left reeling from the financial blow.
+        <br/><br/>
+        The Hallmark Group scandal serves as a cautionary tale of how greed, corruption, and weak regulatory frameworks can lead to monumental financial disasters. While the aftermath led to significant reforms, the saga remains a stark reminder of the need for vigilance, transparency, and integrity in the financial sector. But hey, at least it makes a pretty entertaining story, right
+        </p>
         
         
         <h1 className='text-[28px] leading-[30px] md:text-[36px] mt-4 mb-6 md:leading-[40px] font-bold text-dark'>Links</h1>
