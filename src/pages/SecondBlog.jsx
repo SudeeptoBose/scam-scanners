@@ -123,14 +123,6 @@ const SecondBlog = () => {
                 <p className='text-xl font-regular mb-6 leading-[1.8g]'>
 
                 The FTX debacle serves as a stark reminder that the Wild West of crypto needs some serious taming. Here's to hoping regulators take note and the next "crypto king" isn't crowned with a fool's gold tiara. In the meantime, let the FTX saga be a hilarious (and cautionary) reminder that even in the digital age, greed and a complete lack of financial scruples can bring even the mightiest crypto empires crashing down. After all, a little bit of skepticism can go a long way in the crypto world, just like a healthy dose of laughter can help us learn from the mistakes of others.</p>
-
-                <h1 className='text-[28px] leading-[30px] md:text-[36px] mt-4 mb-6 md:leading-[40px] font-bold text-dark'>Links</h1>
-                {/* <div className='flex gap-5 flex-col'>
-                    <a target='_blank' href='https://www.cfo.com/news/kraft-heinz-fined-62m-for-accounting-fraud/655402/'>Heller, M. (2021, September 3). Kraft Heinz Fined $62M for Accounting Fraud. Retrieved from CFO website: https://www.cfo.com/news/kraft-heinz-fined-62m-for-accounting-fraud/655402/</a>
-                    <a target='_blank' href='https://www.nytimes.com/2021/09/03/business/kraft-heinz-sec-charges.html'>Hirsch, L. (2021, September 3). Kraft Heinz will pay $62 million to settle accusations of an accounting “scheme.” The New York Times. Retrieved from https://www.nytimes.com/2021/09/03/business/kraft-heinz-sec-charges.html</a>
-                    <a target='_blank' href='https://www.sec.gov/news/press-release/2021-174'>SEC. (2021, September 3). SEC Charges The Kraft Heinz Company and Two Former Executives for Engaging in Years-Long Accounting Scheme. Retrieved from www.sec.gov website: https://www.sec.gov/news/press-release/2021-174</a>
-                    <a target='_blank' href='https://www.youtube.com/watch?v=GqaPby5v078&ab_channel=WallStreetMillennial'> Wall Street Millennial. (2021, September 18). Kraft Heinz Massive Accounting Fraud Explained. Retrieved from www.youtube.com website: https://www.youtube.com/watch?v=GqaPby5v078</a>
-                </div> */}
             </div>
         </div>
     </div>

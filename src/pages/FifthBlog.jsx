@@ -11,7 +11,7 @@ const FifthBlog = () => {
         <div className='p-2 border-2 border-black rounded-md w-full md:w-fit mb-6'>
         <div className='max-w-5xl mx-auto mb-2'>
             <div className='flex items-start flex-col'>
-                <h4 className='text-lg font-bold'>Nasser Hossain</h4>
+                <h4 className='text-lg font-bold'>Nasser Mohammad Sharif</h4>
                 <p className='mt-0 text-dark text-sm'> MBA, Institute of Business Administration, DU.</p>
             </div>
         </div>

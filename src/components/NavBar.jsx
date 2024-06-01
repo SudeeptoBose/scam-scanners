@@ -14,8 +14,10 @@ const NavBar = () => {
 					{/* <img src='logo.png' className='p-2.5 w-[150px] border-2 border-black'/> */}
 					<li className='p-2.5 border-2 border-black'>Scam Scanners</li>
 				</Link>
-				<li className='p-2.5 border-2 border-black'>About Us</li>
-
+				<Link href='/'>
+					<li className='p-2.5 border-2 border-black'>About Us</li>
+				</Link>
+			
 				<Link href='/blog'>
 					<li className='p-2.5 border-2 border-black'>Blog</li>
 				</Link>
