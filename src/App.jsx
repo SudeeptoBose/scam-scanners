@@ -8,6 +8,10 @@ import Home from './pages/Home'
 
 import {Link, Route} from 'wouter'
 import FAQs from './pages/FAQs'
+import Blog from './pages/Blog'
+import SecondBlog from './pages/SecondBlog'
+import Meme from './pages/Meme'
+import ThirdBlog from './pages/ThirdBlog'
 
 
 function App() {
@@ -15,7 +19,12 @@ function App() {
 	return (
 		<>
 			<NavBar/>
-				
+			<Route path='/' component={Home}/>
+			<Route path='/blog' component={Blog}/>
+			<Route path='/secondBlog' component={SecondBlog}/>
+			<Route path='/thirdBlog' component={ThirdBlog}/>
+			<Route path='/meme' component={Meme}/>
+			<Route path='/faq' component={FAQs}/>
 			<Footer/>
 		</>
 	)

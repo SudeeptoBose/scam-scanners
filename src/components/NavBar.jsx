@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Blog from '../pages/Blog'
 import Meme from '../pages/Meme'
 import FAQs from '../pages/FAQs'
+import SecondBlog from '../pages/SecondBlog'
 
 const NavBar = () => {
 	return (
@@ -26,10 +27,7 @@ const NavBar = () => {
 					<li className='p-2.5 border-2 border-black'>FAQS</li>
 				</Link>
 			</ul>
-			<Route path='/' component={Home}/>
-			<Route path='/blog' component={Blog}/>
-			<Route path='/meme' component={Meme}/>
-			<Route path='/faq' component={FAQs}/>
+
 		</>
 	)
 }

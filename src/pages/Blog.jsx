@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'wouter'
 
 const Blog = () => {
   return (
@@ -33,7 +34,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className='my-10'>
-                <button className='border-black border-2 px-3 py-1 rounded-full'> View Next Story</button>
+                <Link href='/secondBlog'><button className='border-black border-2 px-3 py-1 rounded-full'> View Next Story</button></Link>
             </div>
             <p className='text-xl font-regular mb-6 leading-[1.8g]'> A clear reminder of the dangers that exist in the corporate world, where greed may lead to dishonesty and profit can take precedence above ethics, is the Kraft-Heinz incident. The Kraft-Heinz scam is the subject of this blog, which will go into detail about the scam's background, methods, and its place in corporate history.</p>
             <div className='prose md:prose-lg xl:prose-xl w-full whitespace-break-spaces max-w-full text-dark marker:text-dark mb-6'>
