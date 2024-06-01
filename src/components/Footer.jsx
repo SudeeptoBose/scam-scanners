@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'wouter'
 
 const Footer = () => {
     return (
@@ -7,26 +8,25 @@ const Footer = () => {
                 <div className='flex flex-col justify-start md:justify-center h-full z-10'>
                     <h3 className='text-2xl font-bold mb-6 xl:text-3xl'>LINKS</h3>
                     <ul className='space-y-6 md:space-y-8 text-lg xl:text-xl'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Blog</li>
-                        <li>Memes</li>
-                        <li>FAQ</li>
+                        <Link href='/'>
+                            <li>Home</li>
+                        </Link>
+                        <Link href='/'>
+                            <li>About Us</li>
+                        </Link>
+                        <Link href='/blog'>
+                            <li>Blog</li>
+                        </Link>
+                        <Link href='/meme'>
+                            <li>Memes</li>
+                        </Link>
+                        <Link href='/faq'>
+                            <li>FAQ</li>
+                        </Link>
                     </ul>
                 </div>
                 <div className='order-1 lg:order-none col-span-2 lg:col-span-1 w-full font-extrabold leading-[0.8]'>
-                    <div className='text-[130px]'> 
-                        <div className='block whitespace-nowrap'>NOT</div>
-                    </div>
-                    <div className='text-[70px]'> 
-                        <div className='block whitespace-nowrap'>BECAUSE</div>
-                    </div>
-                    <div className='text-[75px]'> 
-                        <div className='block whitespace-nowrap'>WE ARE</div>
-                    </div>
-                    <div className='text-[100px]'> 
-                        <div className='block whitespace-nowrap'>IBAITES</div>
-                    </div>
+                    <img src='Capture.PNG'/>
                 </div>
                 <div className='flex flex-col justify-start lg:justify-center h-full text-right z-10'>
                     <h3 className='text-2xl font-bold mb-4 xl:text-3xl'>FOLLOW US</h3>

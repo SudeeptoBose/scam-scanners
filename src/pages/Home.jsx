@@ -12,6 +12,7 @@ const Home = () => {
                 </h1>
                 <div className='text-2xl max-w-7xl mb-10 text-black !leading-[1.5] md:text-4xl 2xl:text-5xl 2xl:!leading-[1.3] md:pr-6 cursor-default xl:mb-8 2xl:max-w-5xls'>We have selected some of the worst accounting scams and memes in the history of mankind and compiled them in this website(for educational purposes). </div>
             </div>
+            {/* <div className='bg-black sticky w-[2000px] p-0 z-10 top-14 h-14 text-white flex items-center text-2xl font-bold xl:h-16 xl:text-4xl'>OUR WORK</div> */}
             {/* Section 2 */}
                 <div className='w-full h-auto'>
                     <h1 className='text-3xl font-bold uppercase mb-10 text-center xl:text-4xl xl:mb-8'>OUR RECENT POST</h1>
