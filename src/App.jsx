@@ -6,13 +6,16 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 
+import {Link, Route} from 'wouter'
+import FAQs from './pages/FAQs'
+
 
 function App() {
 	
 	return (
 		<>
 			<NavBar/>
-				<Home/>
+				
 			<Footer/>
 		</>
 	)

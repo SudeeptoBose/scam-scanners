@@ -1,4 +1,6 @@
 import React from 'react'
+import Meme from './Meme'
+import { Link } from 'wouter'
 
 const Home = () => {
     return (
@@ -16,11 +18,13 @@ const Home = () => {
                 <h1 className='text-3xl font-bold uppercase mb-10 text-center xl:text-4xl xl:mb-8'>OUR RECENT POST</h1>
                 {/* Cards */}
                 <div className='grid md:grid-cols-3 gap-4 w-full'>
-                    <a className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                    <Link href='/blog' className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
+                    <a >
                         <img src='card1.jpg' className='rounded-md mb-2 w-full'/>
                         <h3 className='text-xs xl:text-sm'>May 30th, 2024</h3>
                         <p className='text-xl font-medium leading-none my-2 xl:text-2xl'>The Kraft-Heinz Scam Revealed: A Chronicle of Corporate Deceit</p>
                     </a>
+                    </Link>
                     <a className='border-2 border-black rounded-md px-2 pt-2 pb-4 hover:bg-dark hover:text-orange'>
                         <img src='card2.jpg' className='rounded-md mb-2 w-full'/>
                         <h3 className='text-xs xl:text-sm'>May 31st, 2024</h3>
@@ -36,6 +40,7 @@ const Home = () => {
             {/* Section3 */}
             <div className='w-screen h-screen'>
                 <h1 className='text-3xl font-bold uppercase mb-10 text-center xl:text-4xl xl:mb-8'>Whats a scam without memes?</h1></div>
+                <Meme/>
             </div>
         </>
     )
